@@ -1,0 +1,10 @@
+var con = require('./lib/con');
+var mod = require('./lib/mod');
+var mod1 = require('./lib/mod1');
+console.log(con);
+console.log(mod.fio.name + " " + mod.fio.lastName);
+console.log(mod.Sum(1,2));
+console.log(mod.Sum("A","B"));
+console.log(mod1.fio.name + " " + mod.fio.lastName);
+console.log(mod1.Sum(1,2));
+console.log(mod1.Sum("A","B"));
